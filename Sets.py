@@ -23,3 +23,12 @@ set_a={1,2,3}
 set_b={3,4,5}
 set_c=set_a.union(set_b)
 print(set_c)#{1, 2, 3, 4, 5}
+
+#intersection
+set_d=set_a.intersection(set_b) #OR
+set_d=set_a & set_b
+print(set_d)#{3}
+
+#Difference
+set_e=set_a.difference(set_b)
+print(set_e)#{1, 2}
