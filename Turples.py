@@ -26,3 +26,22 @@ print(name)#John
 print(age)#25   
 print(job)#Engineer
 print(f"Name: {name}, Age: {age}, Job: {job}")#Name: John, Age: 25, Job: Engineer       
+
+#Slicing and Ite
+rgb_colors=(255,165,0,"Orange",(0,0,0),"Black",(255,255,255),"White")
+print(rgb_colors[0:4])#(255, 165, 0, 'Orange')
+print(rgb_colors[-4:])#((0, 0, 0), 'Black', (255, 255, 255), 'White')
+
+#Iterate through a tuple
+for color in rgb_colors:
+    print(color)    
+#255
+#165
+#0
+#Orange
+#(0, 0, 0)
+#Black
+#(255, 255, 255)
+#Count and Index Methods
+
+
